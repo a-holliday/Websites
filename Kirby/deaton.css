@@ -6,14 +6,12 @@ html, body {
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
-  width: 25%; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
+  width: 20%; /* 0 width - change this with JavaScript */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
+  float:left;
   /*background-color: #111;  Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 8%; /* Place content 60px from the top */
+  padding-top: 3%; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   background: transparent;
 
@@ -129,6 +127,12 @@ body {
 	box-shadow: 0 19px 38px rgba(0,0,0,0.40), 0 15px 12px rgba(0,0,0,0.90);
 
 }
+
+.logo{
+	width:30%;
+	height:30%;
+	padding-bottom:50px;
+}	
 
 .label{
 	text-align:right;
